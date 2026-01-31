@@ -164,13 +164,14 @@ Agrega en main en el head de su archivo html y crea un commit
 ``` html
 <link rel="stylesheet" href="style.css" />
 ``` 
-Haz una dos branch distintas llamada color-1 y color-2 con un archivo style.css y cambia el título de color, abre tu página web y cambia entre una branch y otra, revisando cómo cambia automáticamente la página (usando live server).
+Haz una dos branch distintas llamada color-1 y color-2 con un archivo style.css en la carpeta practica_git y cambia el título de color (distinto para cada una), abre tu página web y cambia entre una branch y otra, revisando cómo cambia automáticamente la página (usando live server).
 ```CSS
 h1{
     color: rgb(20, 255, 243);
 }
 ```
-Hacer merge del color que más les guste
+Hacer merge del color que más les guste, en lugar del código rgb también pueden poner colores en inglés, por ejemplo "cyan"
+
 
 Poner su nombre completo en el HTML (en el título H1)
 
