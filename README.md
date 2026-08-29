@@ -12,24 +12,19 @@ Ya deberías haber creado una cuenta en [GitHub](https://github.com/) y descarga
 
 ## 2. Hacer un Fork o clonar
 
-*Hacer un fork o bifurcar* se refiere al acto de crear una copia personal de un repositorio existente. Luego puedes modificar tu *fork* como desees. Hacer un fork es una excelente manera de aprovechar plantillas y otros recursos sobre los cuales puedes construir y contribuir, clonar es parecido pero no se conecta directamente a la cuenta y no está directo para contribuir (el dueño original acepta o rechaza dichas contribuciones).
+*Hacer un fork o bifurcar* es crear una copia del repositorio bajo tu propia cuenta de GitHub. Esa copia es tuya: la puedes modificar, subirle cambios y trabajar en ella libremente, sin que esto afecte el repositorio original ni requiera nada de mi parte. Clonar, en cambio, descarga una copia a tu computadora pero mantiene la conexión con el repositorio original — si intentas subir cambios (push), estarías subiéndolos al repositorio original, no a uno tuyo.
 
-Clona o haz un fork de este repositorio usando el botón "Fork" en la esquina superior derecha en la página o el botón de código para clonar.
+Para esta práctica, haz un fork (no clones el repositorio directo). Usa el botón "Fork" en la esquina superior derecha de la página.
 
-Normalmente se hace un fork
-Se crea una branch con un nombre descriptivo
-Se hacen los cambios mediante commits
-Se hace push a la branch
-Se hace un pull request al dueño original
+Una vez creado tu fork, para trabajar en él localmente: entra a tu fork (en tu cuenta de GitHub) y presiona el botón verde grande "Code" → "Abrir con GitHub Desktop". Selecciona una ubicación donde puedas recordar fácilmente dónde está el repositorio.
 
-Pero si quieres hacer cambios directamente al repositorio es mejor crear un *clon local* de este.
-Para hacerlo, presiona el botón verde grande y elige "Abrir en GitHub Desktop". Selecciona una ubicación donde puedas recordar fácilmente dónde está el repositorio.
+Nota: existe también el pull request (PR), que es pedirle al dueño de un repositorio que incorpore tus cambios al suyo — pero es un paso aparte y opcional que no vamos a usar en esta práctica. Tu fork es tuyo y ahí se queda.
 
 En este momento, es solo una copia del [repositorio original](https://github.com/OscarMacielC/GithubPractice).
 
 ## 3. Editar un Archivo
 
-En tu clon local del repositorio, abre (`README.md`) y modifica la siguiente línea cambiando "tu nombre completo"
+En tu copia local del repositorio, abre (`README.md`) en un editor de texto y modifica la siguiente línea cambiando "tu nombre completo"
 
 > Soy \[tu nombre completo\] y edité este archivo.
 
@@ -41,7 +36,7 @@ Luego, agrega un *mensaje de commit* en el cuadro de abajo. El mensaje de commit
 
 ## 5. Crear una Carpeta y un Archivo
 
-Pero espera, hagamos más. Crea una nueva carpeta llamada `practica_git` dentro del repositorio clonado. Luego, crea un archivo index.html en esta carpeta y un archivo app.js vacío.
+Pero espera, hagamos más. Crea una nueva carpeta llamada `practica_git` dentro de tu copia local del repositorio. Luego, crea un archivo index.html en esta carpeta y un archivo app.js vacío.
 
 ```HTML
 <!DOCTYPE html>
@@ -180,7 +175,7 @@ Poner su nombre completo en el HTML (en el título H1)
 [Ir a la página de vercel](https://vercel.com/)
 Import Git Repository
 Seleccionar deployment
-Pasar el link de *****************.vercel.app en la tarea
+Pasar el link de tu-proyecto.vercel.app en la tarea
 
 ### A. Resolución de conflictos
 
@@ -197,10 +192,13 @@ Pueden eliminar dichos símbolos y quedarse con las líneas que quieran, pueden 
 Un principio importante del control de versiones es que **nunca** dupliquemos archivos. En lugar de tener `proyecto_V1.html`, `version_final.html`, `version_final_REAL.html`, `version_final_REAL_funciona_3.html`, deberías confirmar tu código en cada etapa (o incluso con mayor frecuencia). Siempre podrás volver atrás y encontrar las versiones anteriores en el historial de commits.
 
 ### C. Temas extras explicados en clase
-¿gitignore?
-¿PRs?
-¿git y github?
-¿Cherry picking?
+¿gitignore? Un archivo .gitignore le dice a git qué archivos o carpetas nunca debe rastrear (por ejemplo node_modules/, configuraciones locales o credenciales) — así nunca se suben por accidente.
+
+¿PRs? Un pull request (PR) es una propuesta formal de cambios: le pides al dueño de un repositorio que revise y apruebe (o rechace) tus commits antes de integrarlos a su branch principal. Es el paso final del flujo de fork.
+
+¿git y github? Git es la herramienta de control de versiones que corre en tu computadora (rastrea cambios, hace commits, branches). GitHub es un servicio en línea que aloja repositorios de git y agrega funciones colaborativas (PRs, issues, forks). Se puede usar git sin GitHub, pero GitHub necesita git.
+
+¿Cherry picking? Es tomar un commit específico de una branch y aplicarlo a otra, sin traer el resto de los cambios de esa branch — útil cuando solo quieres "ese arreglo puntual" y no todo lo demás que se hizo ahí.
 
 ### D. Links de utilidad
 https://git-scm.com/book/en/v2
