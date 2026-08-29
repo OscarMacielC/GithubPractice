@@ -6,6 +6,8 @@ En esta actividad, nos enfocaremos en los principales flujos de trabajo de git.
 
 ***Nota***: si ya te sientes cómodo usando git desde la línea de comandos, puedes seguir estas instrucciones reemplazando las operaciones de GitHub Desktop con los comandos correspondientes en la terminal. ¡Ambos enfoques son válidos! Por el momento usaremos GitHub Desktop, pero muchos prefieren la línea de comandos.
 
+Este repositorio será la base de las entregas para todo el curso, les recomiendo que lo usen para mostrar sus tareas.
+
 ## 1. Crear una cuenta y descargar Github
 
 Ya deberías haber creado una cuenta en [GitHub](https://github.com/) y descargado [GitHub Desktop](https://desktop.github.com/).
@@ -15,6 +17,20 @@ Ya deberías haber creado una cuenta en [GitHub](https://github.com/) y descarga
 *Hacer un fork o bifurcar* es crear una copia del repositorio bajo tu propia cuenta de GitHub. Esa copia es tuya: la puedes modificar, subirle cambios y trabajar en ella libremente, sin que esto afecte el repositorio original ni requiera nada de mi parte. Clonar, en cambio, descarga una copia a tu computadora pero mantiene la conexión con el repositorio original — si intentas subir cambios (push), estarías subiéndolos al repositorio original, no a uno tuyo.
 
 Para esta práctica, haz un fork (no clones el repositorio directo). Usa el botón "Fork" en la esquina superior derecha de la página.
+
+Al hacer clic en "Fork", GitHub te va a mostrar un campo con el nombre del repositorio — cámbialo a Practicas-PPI (o el nombre que use tu grupo) antes de confirmar. Ese será el repositorio donde vivirán todas tus tareas del curso, así que conviene que el nombre lo refleje desde ahora.
+
+Practicas-PPI/
+├── README.md
+├── LICENSE
+└── Tarea X/
+    ├── index.html
+    ├── app.js
+    └── style.css
+└── Tarea Y/
+    ├── index.html
+    ├── app.js
+    └── style.css
 
 Una vez creado tu fork, para trabajar en él localmente: entra a tu fork (en tu cuenta de GitHub) y presiona el botón verde grande "Code" → "Abrir con GitHub Desktop". Selecciona una ubicación donde puedas recordar fácilmente dónde está el repositorio.
 
@@ -176,6 +192,12 @@ Poner su nombre completo en el HTML (en el título H1)
 Import Git Repository
 Seleccionar deployment
 Pasar el link de tu-proyecto.vercel.app en la tarea
+
+Al importar el repositorio en Vercel, en la configuración del proyecto selecciona Tarea 4 como "Root Directory" — si no, Vercel buscará el index.html en la raíz del repositorio y no lo va a encontrar.
+
+### 16. Opcional pero útil a futuro
+
+En el README raíz, agregar una sección corta tipo "Índice de tareas" (una línea por carpeta conforme se agreguen), para que el repo no se vuelva difícil de navegar cuando ya tengan varias tareas ahí.
 
 ### A. Resolución de conflictos
 
