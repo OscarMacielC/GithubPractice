@@ -43,7 +43,7 @@ En este momento, es solo una copia del [repositorio original](https://github.com
 
 En tu copia local del repositorio, abre (`README.md`) en un editor de texto y modifica la siguiente línea cambiando "tu nombre completo"
 
-> Soy \[tu nombre completo\] y edité este archivo.
+> Soy \[Omar Alejandro Quezada Rodriguez\] y edité este archivo.
 
 ## 4. Agregar y Confirmar Cambios (Commit)
 
@@ -95,7 +95,7 @@ Ahora ve a la URL de tu proyecto en GitHub e inspecciona el nuevo archivo `READM
 
 Para practicar el proceso de "pull", primero necesitamos hacer un cambio en GitHub web. Edita el archivo `README.md` de nuevo, lo cual puedes hacer navegando hasta el archivo y haciendo clic en el ícono del lápiz.
 
-> Soy \[tu nombre\] y edité este archivo desde GitHub web.
+> Soy \[Omar Alejandro Quezada Rodriguez\] y edité este archivo desde GitHub web.
 
 Al final de la pantalla de edición, se te pedirá que confirmes el cambio con un mensaje de commit.
 
