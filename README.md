@@ -154,7 +154,7 @@ button.addEventListener("click", addNewJoke);
 ``` 
 También cambia está línea en el README
 
-> Soy \[tu nombre\] y cambié esto en una branch.
+> Soy Oscar y cambié esto en una branch.
 
 Hacemos commit y push a los cambios
 
