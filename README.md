@@ -19,18 +19,19 @@ Ya deberías haber creado una cuenta en [GitHub](https://github.com/) y descarga
 Para esta práctica, haz un fork (no clones el repositorio directo). Usa el botón "Fork" en la esquina superior derecha de la página.
 
 Al hacer clic en "Fork", GitHub te va a mostrar un campo con el nombre del repositorio — cámbialo a Practicas-PPI (o el nombre que use tu grupo) antes de confirmar. Ese será el repositorio donde vivirán todas tus tareas del curso, así que conviene que el nombre lo refleje desde ahora.
-
+```
 Practicas-PPI/
 ├── README.md
 ├── LICENSE
-└── Tarea X/
-    ├── index.html
-    ├── app.js
-    └── style.css
+├── Tarea X/
+│   ├── index.html
+│   ├── app.js
+│   └── style.css
 └── Tarea Y/
     ├── index.html
     ├── app.js
     └── style.css
+```
 
 Una vez creado tu fork, para trabajar en él localmente: entra a tu fork (en tu cuenta de GitHub) y presiona el botón verde grande "Code" → "Abrir con GitHub Desktop". Selecciona una ubicación donde puedas recordar fácilmente dónde está el repositorio.
 
