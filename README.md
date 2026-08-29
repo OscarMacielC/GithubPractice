@@ -172,11 +172,13 @@ Si la branch ya no se va a utilizar se puede eliminar, hay distintos flujos de t
 
 ### 14. Practicando un poco
 
-Agrega en main en el head de su archivo html y crea un commit
+Agrega en main en el head de su archivo html, crea un archivo vacío llamado style.css y crea un commit
+
 ``` html
 <link rel="stylesheet" href="style.css" />
 ``` 
-Haz una dos branch distintas llamada color-1 y color-2 con un archivo style.css en la carpeta practica_git y cambia el título de color (distinto para cada una), abre tu página web y cambia entre una branch y otra, revisando cómo cambia automáticamente la página (usando live server).
+Haz una dos branch distintas llamada color-1 y color-2 en la carpeta practica_git y agrega la siguiente línea de código, cambia los valores rgb de color (distinto para cada una), abre tu página web y cambia entre una branch y otra, revisando cómo cambia automáticamente la página (usando live server).
+
 ```CSS
 h1{
     color: rgb(20, 255, 243);
