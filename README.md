@@ -43,7 +43,7 @@ En este momento, es solo una copia del [repositorio original](https://github.com
 
 En tu copia local del repositorio, abre (`README.md`) en un editor de texto y modifica la siguiente línea cambiando "tu nombre completo"
 
-> Soy \[tu nombre completo\] y edité este archivo.
+> Soy Oscar Eduardo Maciel Castillo y edité este archivo.
 
 ## 4. Agregar y Confirmar Cambios (Commit)
 
